@@ -593,13 +593,13 @@
   (symbol (lib_id "Connector_Generic:Conn_02x05_Odd_Even") (at 133.35 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 264ff037-1ee1-4b15-8176-c067a775e0fa)
-    (property "Reference" "ATX-FP" (at 134.62 35.56 0)
+    (property "Reference" "ATX-FP1" (at 134.62 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x05_Odd_Even" (at 134.62 38.1 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" (at 133.35 46.99 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD" (at 133.35 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 133.35 46.99 0)
@@ -618,7 +618,7 @@
     (instances
       (project "supermicro-ATX-PCB"
         (path "/157eb82a-c702-4e17-b34a-5b8cd10c1865"
-          (reference "ATX-FP") (unit 1)
+          (reference "ATX-FP1") (unit 1)
         )
       )
     )
